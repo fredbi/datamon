@@ -284,7 +284,5 @@ workflows:
             - go_test
             - build_images
           filters:
-            branches:
-              ignore: /.*/
             tags:
               only: /(^[^v].*)/
